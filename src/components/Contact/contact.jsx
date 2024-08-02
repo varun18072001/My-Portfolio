@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import LinkedinIcon from '../../assets/linkedin-icon.webp';
+import LinkedinIcon from '../../assets/linkedin-icon.png';
 import GitHubIcon from '../../assets/github-icon.png';
 import emailjs from '@emailjs/browser';
 
@@ -37,7 +37,7 @@ const Contact = () => {
       <button type='submit' value="Send" className='submitBtn'>Submit</button>
       <div className="links">
         <a href={linkedinUrl} target='_blank' rel='noopener noreferrer'><img src={LinkedinIcon} alt="" className="link" /></a>
-        <a href={githubUrl}><img src={GitHubIcon} alt="" className="link" /></a>
+        <a href={githubUrl} target='_blank' rel='noopener noreferrer'><img src={GitHubIcon} alt="" className="link" /></a>
       </div>
     </form>
   </div>
