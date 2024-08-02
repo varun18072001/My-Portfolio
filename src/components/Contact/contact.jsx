@@ -24,6 +24,8 @@ const Contact = () => {
         },
       );
     };
+    const linkedinUrl = 'https://www.linkedin.com/in/varun-k-s-575454300/';
+    const githubUrl = 'https://github.com/varun18072001'
   return (
   <div id="contact">
     <h1 className='contactTitle'>Contact Me</h1>
@@ -34,8 +36,8 @@ const Contact = () => {
       <textarea name="message" className="msg" rows="5" placeholder='Your Message'></textarea>
       <button type='submit' value="Send" className='submitBtn'>Submit</button>
       <div className="links">
-        <img src={LinkedinIcon} alt="" className="link" />
-        <img src={GitHubIcon} alt="" className="link" />
+        <a href={linkedinUrl} target='_blank' rel='noopener noreferrer'><img src={LinkedinIcon} alt="" className="link" /></a>
+        <a href={githubUrl}><img src={GitHubIcon} alt="" className="link" /></a>
       </div>
     </form>
   </div>
