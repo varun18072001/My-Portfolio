@@ -1,0 +1,69 @@
+#Projects, .ProjectSpan {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ProjectTitle {
+  font-size: 3rem;
+  font-weight: 400;
+  padding-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.ProjectDesc {
+  font-weight: 300;
+  font-size: 1.1rem;
+  max-width: 65rem;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.ProjectsBoxs {
+  margin: 1.5rem;
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  gap: 1rem;
+}
+
+.ProjectBox {
+  flex: 1 1 calc(48% - 1rem);
+  box-sizing: border-box;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: #323232;
+}
+
+.ProjectBox.centered {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.ProjectBox>h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem;
+  color: yellow;
+}
+
+.ProjectBox>p {
+  font-size: 1rem;
+  font-weight: 400; 
+}
+
+.ProjectImg {
+  object-fit: cover;
+  height: 8rem;
+}
