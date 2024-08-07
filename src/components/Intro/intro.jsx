@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../assets/image.png'
+import bg from '../../assets/Varun-K-S-photo.png'
 import { Link } from 'react-scroll';
 import resumeImg from '../../assets/resume.jpg';
 import resumePdf from '../../assets/Resume.pdf'

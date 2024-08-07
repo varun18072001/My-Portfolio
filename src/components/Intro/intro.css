@@ -9,11 +9,12 @@
 
 .bg {
   position: absolute;
-  top: -4rem;
-  right: 0;
+  top: -2rem;
+  right: 7rem;
   z-index: -1;
   object-fit: cover;
-  height: 100vh;
+  height: 93vh;
+  width: 190px;
 }
 
 .introContent {
