@@ -38,8 +38,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 Feel free to connect with me on the following platforms:
 
-- [LinkedIn](https://www.linkedin.com/in/varun-k-s) - Professional networking and career updates.
-- [dev.to](https://dev.to/varun-k-s) - Follow my tech blog and development journey.
+- [LinkedIn](https://www.linkedin.com/in/varun-k-s-575454300/) - Professional networking and career updates.
 
 ## Acknowledgements
 
